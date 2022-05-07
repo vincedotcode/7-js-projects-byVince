@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+}
+
+.navbar .nav-item a {
+    color: rgb(0, 0, 0) !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card {
+    width: 650px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 80vh;
+}
+
+.wrapper>.card {
+    background-color: rgb(36, 36, 34);
+    color: white;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper h4 {
+    font-weight: 700;
+}
+
+.wrapper .btn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 700;
+    font-size: 1.1em;
+    transition: 0.7s;
+}
+
+.wrapper .btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+.wrapper span {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar .navbar-brand {
+        font-size: 0.8rem;
+    }
+    .wrapper h4 {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        width: 100%;
+    }
+}
