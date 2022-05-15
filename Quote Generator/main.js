@@ -1,5 +1,6 @@
 const btn = document.getElementById("btn");
 const quote = document.getElementById("quote");
+const author = document.getElementById("author");
 
 
 function getQuote() {
@@ -7,6 +8,7 @@ function getQuote() {
         .then(response => response.json())
         .then(data => {
             quote.innerHTML = data.content;
+            author.innerHTML = data.author;
         });
 }
 
