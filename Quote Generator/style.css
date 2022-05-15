@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 116, 198) !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ffffff !important;
+}
+
+.navbar .nav-item a {
+    color: #0074C6 !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card {
+    width: 650px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 80vh;
+}
+
+.wrapper>.card {
+    background-color: rgb(255, 255, 255);
+    color: #0074C6;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 40px -6px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper h4 {
+    font-weight: 700;
+}
+
+.wrapper .btn {
+    background-color: #004a7e;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1em;
+    transition: 0.7s;
+}
+
+.wrapper .btn:hover {
+    background-color: #0393f9 !important;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.wrapper span {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.box-q span {
+    color: #004a7e !important;
+    text-align: center;
+    text-emphasis: bold;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar .navbar-brand {
+        font-size: 0.8rem;
+    }
+    .wrapper h4 {
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        width: 100%;
+    }
+}
